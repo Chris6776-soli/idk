@@ -44,9 +44,4 @@ body { font-family: Arial, sans-serif; margin: 30px; }
   #result button {
     display: none !important;
   }
-
-  #result img {
-  width: 1.5in;
-  height: auto;
-}
 }
