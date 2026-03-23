@@ -103,7 +103,7 @@ const nutritional_data = {
 
       // Render result
       document.getElementById("result").innerHTML = `
-        <img src="logo.png" alt="Riversoljax Logo" style="width:1.5in;height:1.4in;margin-bottom:10px;display:block;margin-left:auto;margin-right:auto;" />
+        <img src="logo.png" alt="Riversoljax Logo" style="width:1.3in;height:1.2in;margin-bottom:10px;display:block;margin-left:auto;margin-right:auto;" />
         ${summary.length ? `<p style="font-size:12px;margin:8px 0 6px 0;text-align:left;"><strong>Meal:</strong> ${summary.join(", ")}</p>` : ""}
         <h2 style="font-size:14px;margin:6px 0 6px 0;text-align:left;">Nutrition Facts</h2>
         <p style="font-size:12px;margin:6px 0 0 0;text-align:left;"><strong>Calories:</strong> ${label.calories} kcal</p>
